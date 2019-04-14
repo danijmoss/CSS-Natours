@@ -1,6 +1,6 @@
 .row {
   max-width: $grid-width;
-  background-color: #eee;
+  // background-color: #eee;
   margin: 0 auto;
 
   &:not(:last-child) {
@@ -11,7 +11,7 @@
 
   // Select all elements with the class attribute that starts with "col-"
   [class^="col-"] {
-    background-color: orange;
+    // background-color: orange;
     float: left;
 
     &:not(:last-child) {
