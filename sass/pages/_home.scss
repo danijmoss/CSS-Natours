@@ -13,4 +13,10 @@
     ),
     url(../img/nat-4.jpg);
   background-size: cover;
+  transform: skewY(-7deg);
+  margin-top: -12rem; //-10 in the course but I changed it to fit my screen
+
+  & > * {
+    transform: skewY(7deg);
+  }
 }
